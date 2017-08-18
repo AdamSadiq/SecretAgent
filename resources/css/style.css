@@ -1,3 +1,4 @@
+                  /* BEGIN DEFAULT */
 html{
   font-size: 18px;
   font-family: Helvetica;
@@ -55,7 +56,6 @@ html{
 #arrivaltext{
   background-color: Black;
   padding: 2rem 0 .25rem 3rem;
-  padding-top: 2rem;
   font-weight: bold;
 }
 
@@ -88,6 +88,11 @@ html{
   margin: .75rem 0;
   text-decoration: none;
 }
+
+#smallnavitem{
+  display: none;
+}
+
 /* END NAV BAR */
 /* BEGIN EXAMPLES */
 #exampleholder{
@@ -188,3 +193,92 @@ html{
   width: 960px;
 }
 /* END COPYRIGHT */
+                 /* END DEFAULT */
+                 /* BEGIN TABLET (w1024) */
+@media only screen and (max-width: 1024px){
+    .navitem{
+      display: none;
+    }
+    #smallnavitem{
+      display: block;
+      padding-right: 47.5%;
+    }
+    #menu{
+      color: White;
+      text-decoration: none;
+    }
+    #smallscreenglasses{
+      display: none;
+    }
+    .example{
+      width: 47%;
+    }
+}
+                  /* END TABLET (w1024) */
+                  /* BEGIN PHONE (w470) */
+@media only screen and (max-width: 470px){
+    #logoandhead{
+      justify-content: center;
+    }
+    #compname{
+      display: none;
+    }
+    #bikepic{
+      height: 15rem;
+    }
+    #arrivalholder{
+      align-items: flex-end;
+    }
+    #newarrival{
+      width: 100%;
+      align-items: center;
+    }
+    #arrivaltext{
+      font-size: .77rem;
+      padding: 1.5rem 0 .75rem 2rem;
+    }
+    #sportsbikestext{
+      font-size: 1rem;
+      padding-left: 2rem;
+    }
+    .navitem{
+      display: none;
+    }
+    #smallnavitem{
+      display: block;
+      padding-right: 46%;
+    }
+    #menu{
+      color: White;
+      text-decoration: none;
+    }
+    #smallscreenglasses, #smallscreenwatch{
+      display: none;
+    }
+    #examples{
+      display: flex;
+      justify-content: center;
+    }
+    .example{
+      width: 90%;
+    }
+    #information{
+      flex-direction: column;
+      width: 90%;
+      justify-content: center;
+    }
+    .infoside{
+      width: 90%;
+    }
+    #coord{
+      margin-bottom: .5rem;
+    }
+    #copybox{
+      justify-content: center;
+    }
+  }
+
+
+
+
+                  /* END PHONE (w470) */
