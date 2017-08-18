@@ -1,0 +1,190 @@
+html{
+  font-size: 18px;
+  font-family: Helvetica;
+  color: White;
+}
+/* BEGIN HEADER */
+#logoheader{
+  display: flex;
+  justify-content: center;
+  height: 2.32rem;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  margin-top: -2.32rem;
+}
+
+#logoandhead{
+  display: inline-flex;
+  width: 960px;
+  align-items: center;
+}
+
+#glasseslogo{
+  height: 1.5rem;
+  padding: 0 1rem 0 .5rem;
+}
+
+#compname{
+  color: White;
+}
+/* END HEADER */
+/* BEGIN NEW ARRIVAL */
+#bikepic{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 25rem;
+  background-image: url(../moto.jpeg);
+  background-size: cover;
+  margin-top: 2.32rem;
+}
+
+#arrivalholder{
+  display: flex;
+  justify-content: flex-start;
+  width: 960px;
+}
+
+#newarrival{
+  display: block;
+  width: 25rem;
+  margin-top: 9rem;
+}
+
+#arrivaltext{
+  background-color: Black;
+  padding: 2rem 0 .25rem 3rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+#sportsbikestext{
+  background-color: Black;
+  padding: 0 0 2rem 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* END NEW ARRIVAL */
+/* BEGIN NAV BAR */
+#navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2.32rem;
+  background-color: Firebrick;
+}
+
+#navitems{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+}
+
+.navitem{
+  color: White;
+  margin: .75rem 0;
+  text-decoration: none;
+}
+/* END NAV BAR */
+/* BEGIN EXAMPLES */
+#exampleholder{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#examples{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+}
+
+.example{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  border: 4px Solid Black;
+}
+
+.expicholder{
+  display: flex;
+  justify-content: center;
+}
+
+.examplepic{
+  width: 9rem;
+  height: 9rem;
+  margin: 2rem 0;
+}
+
+#glassespic{
+  width: 9rem;
+  height: 4.5rem;
+  margin-bottom: 4.25rem;
+  margin-top: 4.25rem;
+}
+
+.examplename{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  background-color: Black;
+}
+/* END EXAMPLES */
+/* BEGIN INFO */
+#infoholder{
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 4rem 0;
+}
+
+#information{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+}
+
+.infoside{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.infotypeholder{
+  display: flex;
+  align-items: center;
+  background-color: Black;
+  height: 3rem;
+}
+
+.infotype{
+  margin: 1rem 0 1rem 2rem;
+}
+
+.infodata{
+  color: Black;
+  margin-top: .5rem;
+}
+/* END INFO */
+/* BEGIN COPYRIGHT */
+#copyholder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: Black;
+  height: 5rem;
+}
+
+#copybox{
+  display: flex;
+  justify-content: flex-start;
+  width: 960px;
+}
+/* END COPYRIGHT */
